@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-visual {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-visual-content {
+  padding: 20px 0 0 20px;
+  color: #808080;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 50px 0;
+}
+
+.blog {
+  width: 840px;
+}
+
+.blog-image {
+  justify-content: left;
+}
+
+.blog-text {
+  padding-bottom: 30px;
+  border-bottom: 1px solid silver;
+}
+
+.blog-item {
+  padding-top: 30px;
+}
+span {
+  border-bottom: solid 1px;
+}
